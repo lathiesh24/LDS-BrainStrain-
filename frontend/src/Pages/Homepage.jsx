@@ -1,12 +1,12 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
-import Button from '../Components/Button';
+import Navbar from '../shared/Navbar';
 
 const Homepage = () => {
   
   return (
       <>
     <div className='pt-20 text-black'>
+      <Navbar />
       Welcome Home!
     </div>
    < div>     

@@ -7,11 +7,9 @@ const Button = (props) => {
     navigate("/brainstrain")
   }
   return (
-    <button className='bg-red-600 text-white font-[Poppins] py-2 px-6 rounded md:ml-8 hover:bg-indigo-400 
-    duration-500' onClick={handleClick}>
+    <button className='bg-yellow-500 text-white font-[Poppins] py-2 px-6 rounded md:ml-8 hover:bg-indigo-400  
+    duration-500'>
       {props.children}
     </button>
   )
 }
-
-export default Button
