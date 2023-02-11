@@ -3,12 +3,10 @@ import Navbar from "./shared/Navbar";
 import Homepage from "./Pages/Homepage";
 import Events from "./Pages/Events";
 import Cards from "./Components/Cards";
-<<<<<<<< HEAD:frontend/src/App.js
 import EventDetails from "./Components/EventDetails";
-========
 import Login from "./Pages/Login";
 import Register from './Pages/Register'
->>>>>>>> 84b916e8707cee7e7285de5f1f34f6054fdc8272:frontend/src/App.jsx
+
 
 const App = () => {
   return (
