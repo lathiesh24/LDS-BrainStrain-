@@ -4,13 +4,13 @@ import CalendarTodayOutlinedIcon from '@mui/icons-material/CalendarTodayOutlined
 import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import EmojiEventsOutlinedIcon from '@mui/icons-material/EmojiEventsOutlined';
-import Button from './Button';
+import Button from "./Button"
 
 const EventDetails = () => {
   return (
     <div className='m-20 '>
       <div className='text-6xl font-base'>
-        JAM
+        
       </div>
       <div className='grid grid-cols-2 mt-10'>
         <div className='grid grid-flow-row'>
